@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.result{
+    border: 1px ;
+    height: 40vh;
+    width: 230px;
+    border-radius: 16px;
+    background: linear-gradient( hsl(241, 81%, 54%),hsl(252, 89%, 56%));
+    color: rgb(210, 208, 208);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.head{
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+.marks{
+    margin: 20px 55px;
+    border-radius: 55%;
+    /* padding: 10px; */
+    border: 1px solid rgb(75, 28, 245);
+    width: 120px;
+    height: 110px;
+    text-align: center;
+    background: linear-gradient(hsla(241, 72%, 46%, 0),hsla(256, 72%, 46%, 1));
+}
+.mark{
+    font-size: 55px;
+    text-align: center;
+    color: white;
+}
+.great{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+.p{
+    text-align: center;
+    font-size: 14px;
+    
+}
+.summary{
+    border: 1px solid red;
+    border: 1px solid aliceblue;
+    height: 40vh;
+    width: 230px;
+    border-radius: 16px;
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    text-align: center;
+    
+} 
+.headr{
+    margin-top: 30px;
+    margin-right: 110px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.left1{
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(0, 87%, 85%);
+    background: hsl(0, 73%, 96%) ;
+}
+.left2{
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    color:  hsl(39, 100%, 56%);
+    background: hsl(54, 68%, 89%) ;
+}
+.left3{
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    color:  hsl(166, 100%, 37%);
+    background: hsl(165, 57%, 97%) ;
+}
+.left4{
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(234, 85%, 45%);
+    background: hsl(235, 42%, 94%);
+}
+button{
+    padding:10px 60px ;
+    border-radius: 15px;
+    color: aliceblue;
+    background: rgb(24, 24, 80);
+}
+.a{
+    color: rgb(2, 2, 48);
+}
